@@ -17,22 +17,21 @@
         android:id="@+id/textview_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Location Data Available From Your Phone\n" />
+        android:text="Location Data Available From Your Device\n" />
 
     <TextView
         android:id="@+id/latitude_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!\ntest" />
+        android:text="No data available" />
     <TextView
         android:id="@+id/longitude_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!\ntest" />
+        android:text="No data available" />
 
     <TextView
         android:id="@+id/otherlocationdata_text"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="" />
+        android:layout_height="wrap_content"/>
 </LinearLayout>
